@@ -33,7 +33,7 @@ export class ContactQrComponent implements OnInit, OnDestroy {
     private fb: FormBuilder,
     private vcardService: VCardService,
     private qrService: QrService
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.initForm();
